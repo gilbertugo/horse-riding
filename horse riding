@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ux project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.big{
+    height: 2000px;
+    width: 1200px;
+    background-color: beige;
+    margin: 25px;
+    position: relative;
+    padding: 20px;
+}
+.big2{
+    
+    height: 1900px;
+    width: 1200px;
+    background-color: white;
+    margin: 20px;
+    position: absolute;
+
+
+}
+nav{
+    display: flex;
+    padding: 30px;
+   
+}
+li{
+    display: inline;
+    width: 180px;
+    margin-left: 20px;
+    
+
+}
+.logo{
+ 
+    
+    
+}
+button{
+    height: 30px;
+    width: 80px;
+    background-color: darkgoldenrod;
+    border-radius: 6px;
+    border: none;
+}
+h3{
+    position: absolute;
+    top: 250px;
+    margin-left: 55px;
+    
+}
+p{
+    position: absolute;
+    top: 310px;
+    margin-left: 55px;
+    
+}
+.bigg{
+height: 40px;
+width: 450px;
+background-color: none;
+margin: 60px;
+display: flex;
+position: absolute;
+top: 350px;
+}
+
+.one{
+    height: 30px;
+    width: 140px;
+    background-color:burlywood;
+    margin: 2px;
+    
+}
+.one:hover{
+    background-color: white;
+}
+.long{
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    bottom: -82px;
+    margin: 40px;
+    margin-left: 2px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.ten{
+    display: inline block;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: blue;
+     
+}
+.b2{
+    height: 450px;
+    width: 1190px;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    top: 538px;
+    margin: 65px;
+ 
+    
+}
+h1{
+    margin-left: 450px;
+    
+}
+u{
+    position: absolute;
+    margin-left: 470px;
+    top: 23px;
+
+}
+.about{
+    position: absolute;
+    margin-left: 290px;
+}
+.image{
+    position: absolute;
+    height: 200px;
+    width: 900px;
+    background-color: none;
+    margin-left: -180px;
+    bottom: -270px;
+    display: flex;
+}
+.two{
+    height: 180px;
+    width: 800px;
+    margin: 2px;
+    background-color:beige;
+    transform: scaleY(10deg);
+}
+
+   
+.two:hover{
+    background-color: navy;
+    color: azure;
+}
+.b3{
+    height: 350px;
+    width: 1190px;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    bottom: -765px;
+    margin-left: 65px;
+}
+.pin{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    border-radius: 12px;
+    top: 204px;
+    color: aliceblue;
+
+}
+.clip{
+    position: absolute;
+    margin-left: 700px;
+    left: 5px;
+    right: 5px;
+    top: 1px;
+    bottom: 5px;
+    margin-top: 0px;
+    background: url(teho.jpg);
+    background-repeat: no-repeat;
+    clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 45% 100%, 0% 50%);
+
+}
+.last{
+    height: 510px;
+    width: 1190px;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-left: 65px;
+    top: 1422px;
+}
+.line{
+    position: absolute;
+    margin-left: -470px;
+    top: -3px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="big">
+    <div class="big2">
+        <nav><div class="logo">TRABLAND &nbsp; &nbsp; </div> 
+            <li>Home</li>
+            <li>About</li>
+            <li>Riding School</li>
+            <li>Riding Holiday</li>
+            <li>Ferries</li>
+            <li>Riding Stable</li>
+            <li>Contact</li>
+            <button>Log in</button>&nbsp; &nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="search">
+        </nav>
+        <div class="b1">
+            <figure><img src="loho.jpg" width="1200px" height="450px" alt=""></figure>
+            <h3 style="color: beige;">WELCOME TO <br> <span style="font-size: xx-large;">TRABLAND</span></h3>
+            <p style="color: wheat;">It is the best and the most sought relaxation <br>
+            center you can visit around, it has the best scenes <br>
+            you can ask for and once you visit you will keep visiting.</p>
+               <div class="bigg">
+                <div class="one">&nbspRelaxation</div>
+                <div class="one">&nbspHoliday</div>
+                <div class="one">&nbsp &nbspParty</div>
+                <div class="one">&nbsp &nbspPicnic</div>
+               
+                <div class="long">
+                   <div class="ten">&bull;Feature first</div>
+                    <div class="ten">&bull;Feature sec</div>
+                    <div class="ten">&bull;Feature third</div>
+                    
+                 </div>
+                
+                </div>
+               
+                </div>
+               </div>
+            </div>
+            
+        
+         
+        
+            
+        </div>
+        <div class="b2"><h1>About us</h1>
+            <u style="color: burlywood;">__________</u>
+          <div class="about">
+            We are into resort and tourism,which is an area we are very good in <br>
+            <em>TRABALAND</em> is so good that once you use one of our services you would <br>
+            tempted to use the rest of the service we offer. At Trabaland we after <br>
+            after your comfort, satisfaction and peace of mind. We also offer after <br> 
+            services which most ventures don't offer. WE anticipate your <strong>Patronage</strong>.
+            <div class="image">
+                <div class="two"><img src="white ho.jpg" height="150px" width="175px"  alt=""><span>School Ridings</span></div>
+                <div class="two"><img src="woho.jpg" height="150px" width="175px" alt=""><span>Holiday Riding</span></div>
+                <div class="two"><img src="lyho.jpg" height="150px" width="175px" alt=""><span>Ferries</span></div>
+                <div class="two"><img src="loho.jpg" height="150px" width="175px" alt=""><span>About Ridings</span></div>
+                <div class="two"><img src="stho.jpg" height="150px" width="175px" alt=""><span>stable Ridings</span></div>
+            </div>
+          </div>  
+        </div>
+        <div class="b3">
+            <div class="hrt">
+                <h2>Horse Riding <span style="color:darkgoldenrod">Trainings</span></h2> <br>
+                Horse riding trainings is one of the features of Trabaland <br>
+                it is an activity that involves the participant(s) to enjoy <br>
+                him/herself or themselves on a horse and it also entails how <br>
+                how to climb or ride on a horse with out any form of &nbsp;fear. <br>
+                This could be a way to relax one self after a stressful activity,<br>
+                take your mind off work related activities, ease out burn out due <br>
+                to long hours of work and stress.Trabaland will give you with this. 
+                 
+                <div class="pin">&nbsp;&nbsp;Learn More</div>
+            </div>
+            <div class="clip"></div>
+        </div>
+    </div>
+</div>
+<div class="last">
+<h2 style="color: darkblue;">Riding <span style="color: darkgoldenrod;">Horses</span></h2>
+<div class="line"><u style="color: darkgoldenrod;">____</u></div> <br>
+Riding Horses is one of the best services <br> 
+Trabland offers, it is interesting and <br> 
+affordable. It is open to all and sundry, <br>
+it is done in all seasons of the year....
+</div>
+    
+</body>
+</html>
